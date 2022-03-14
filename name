@@ -1,0 +1,5 @@
+demonfall.Players.PlayerAdded:Connect(function(Player)
+    if Player:WaitForDataReady() then
+        print(Player:LoadString("TheirName")) 
+    end
+end)
